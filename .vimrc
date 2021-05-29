@@ -121,3 +121,5 @@ set shell=zsh
 autocmd VimLeave * NERDTreeClose
 autocmd VimLeave * mksession!
 
+" Remove Session opening error log
+set sessionoptions-=blank
