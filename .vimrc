@@ -119,5 +119,5 @@ set shell=zsh
 
 " Save session on quitting Vim
 autocmd VimLeave * NERDTreeClose
-autocmd VimLeave * mksession! [filename]
+autocmd VimLeave * mksession!
 
