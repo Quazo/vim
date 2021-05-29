@@ -113,3 +113,6 @@ set nu
 " Clipboard
 set clipboard=unnamed
 
+" Terminal
+set shell=zsh
+
