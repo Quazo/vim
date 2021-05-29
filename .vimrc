@@ -102,8 +102,10 @@ endif
 " solarized dark / light switch
 call togglebg#map("<F5>")
 
-" Hide .pyc files in NERDTree
-let NERDTreeIgnore=['\.pyc$', '\~$'] 
+" NERDTree
+" Map to <F2>
+map <F2> :NERDTreeToggle<CR>  
+let NERDTreeShowHidden=1  " Show Hidden Files, e.g. .vimrc
 
 " Line Numbering
 set nu
