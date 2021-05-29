@@ -106,6 +106,7 @@ call togglebg#map("<F5>")
 " Map to <F2>
 map <F2> :NERDTreeToggle<CR>  
 let NERDTreeShowHidden=1  " Show Hidden Files, e.g. .vimrc
+let NERDTreeIgnore=['\.swp$', '\~$'] 
 
 " Line Numbering
 set nu
