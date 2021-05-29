@@ -53,7 +53,7 @@ nnoremap <space> za
 let g:SimpylFold_docstring_preview=1
 
 " Indentation
-au BufNewFile,BufRead *.py
+au BufNewFile, BufRead *.py
     \ set tabstop=4
     \ set softtabstop=4
     \ set shiftwidth=4
