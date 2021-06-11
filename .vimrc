@@ -26,6 +26,7 @@ Plugin 'jistr/vim-nerdtree-tabs' " Tabs
 Plugin 'kien/ctrlp.vim' " Super Search
 Plugin 'tpope/vim-fugitive' " Git
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'} " Powerline
+Plugin 'airblade/vim-gitgutter' " Git Diff Sidebar
 
 
 " All of your Plugins must be added before the following line
